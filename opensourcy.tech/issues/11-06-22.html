@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>opensourcy.tech | 11-06-22 3rd Issue</title>
+  <meta name="description" content="open-source, sorted">
+  <meta name="keywords" content="Tech News, open-source, Linux, software, cryptocurrency">
+  <meta name="author" content="Gabriele Salvo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styleIssues.css" >
+  <link rel="icon" href="/favicon.svg" />
+</head>
+<html>
+    <body>
+      <div class="actions">
+      <a href="/pages/archive.html">&lt;◦◦Back</a>
+      <a href="/"> &lt;Sign Up&gt;</a>
+      <a href="https://opensourcy.tech/issues/23-10-22.html" target="_blank">&lt;Read Online&gt;</a>
+      <a href="https://opensourcy.tech/pages/sponsor.html" target="_blank">&lt;Sponsor&gt;</a>
+    </div>
+    <div class="mail-content">
+     <h2>3rd Weekly Issue 2022-11-06 ☕</h2>
+     <p class="summary">Twitter has announced a subscription service for $7.99 a month that includes a blue check, It's hard to measure progress by lines of code, How much does the environment you're in contribute to performance?</p>
+     <!--News-->
+     <pre>📰</pre>
+     <h2>Techy News</h2>
+     <a href="https://stripe.com/en-au/newsroom/news/ceo-patrick-collisons-email-to-stripe-employees" target="_blank">CEO Patrick Collison's email to Stripe employees (2 minutes read)</a>
+     <p>Today we’re announcing the hardest change we have had to make at Stripe to date. We’re reducing the size of our team by around 14% and saying goodbye to many talented Stripes in the process.</p>
+     <a href="https://apnews.com/article/elon-musk-twitter-inc-technology-entertainment-business-61cb431325991db18e4320bbd4831caf" target="_blank">Twitter users can soon get blue check for $7.99 monthly fee (5 minutes read)</a>
+     <p>Twitter has announced a subscription service for $7.99 a month that includes a blue check now given only to verified accounts as new owner Elon Musk works to overhaul the platform’s verification system just ahead of U.S. midterm elections.</p>
+     <a href="https://teaandtechtime.com/pieca-a-raspberry-pi-camera-system-for-leica-m-mount-lenses/" target="_blank">Pieca: A Raspberry Pi Camera System for Leica M Mount Lenses (5 minutes read)</a>
+     <p>This camera project is a culmination of countless hours of learning to code in various languages, design 3D parts, print them successfully, build basic electronic circuits, use optical elements, and solve complex problems in general</p>
+     <!--Breaking News-->
+     <pre>💻</pre>
+     <h2>Brilliant Software & Guides</h2>
+     <a href="https://www.folklore.org/StoryView.py?story=Negative_2000_Lines_Of_Code.txt" target="_blank">-2000 Lines Of Code</a>
+     <p>It's hard to measure progress by lines of code</p>
+     <a href="https://safing.io/blog/2022/10/27/portmaster-reaches-1.0/" target="_blank">Portmaster 1.0, A New Era for Privacy</a>
+     <p>Automated privacy. A unified experience. An exciting new chapter.</p>
+     <a href="https://blog.nestybox.com/2019/11/11/docker-sandbox.html" target="_blank">System Containers as Docker Sandboxes</a>
+     <p>For software developers that use Docker, it’s often useful to have an isolated environment on which to experiment with Docker.</p>
+     <!--Breaking News-->
+     <pre>⁉️</pre>
+     <h2>Q&A Highlights</h2>
+     <a href="https://news.ycombinator.com/item?id=33475720" target="_blank">How much does the environment you're in contribute to performance?</a>
+     <p>(Question) It's a circle I've been trying to square recently as part of my career.</p>
+     <!--Puzzle-->
+      <!--<pre>🧩</pre>
+     <h2>Puzzle of The Week</h2>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat magni ab laboriosam ea laborum ex doloribus, voluptates explicabo voluptas nihil fugiat. Unde nemo, velit doloribus consectetur ad excepturi rerum debitis!</p>
+     <br>
+     <br>
+    </div>
+   <style>
+      /*Main*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+html {
+  display: grid;
+  min-height: 100%;
+}
+@font-face {
+  font-family: 'Red Hat Mono', monospace;
+  src: url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+}
+:root{
+    --background: #262624;
+    --color-p: #F2BDBD;
+    --color-h: #D96B43;
+    --color-fav: #A65233;
+    --color-other: #8C512E;
+    --orchid: #F92672;
+    --br-blue: #66D9EF;
+    --henn1nk: #539b00;
+    --spice: #FD971F;
+    --classColour: #FFE792;
+    --parColour: #F8F8F2;
+}
+body {
+  background: #0f1011;
+  display: grid;
+  grid-template-rows: auto;
+  font-family: 'Red Hat Mono', monospace;
+}
+a {
+  color: var(--color-h);
+}
+h2 {
+  color: var(--color-h);
+}
+h3{
+  color: var(--color-fav) ;
+}
+
+p {
+  color: #F4E8DA;
+  text-align: left;
+}
+
+pre {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+/*TOP BAR*/
+.actions {
+  position:relative;
+  margin:0 auto;
+  clear:left;
+  height:auto;
+  z-index: 0;
+  text-align:center;
+}
+
+/*BODY EMAILS*/
+.mail-content {
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+.summary {
+  text-align: center;
+}
+
+/*Media Queries 480 on width*/
+@media only screen and (max-width: 479px) {
+  body {
+    width: 100%;
+    height: 100%;
+    transform-origin: top left;
+    transform: scale(68%);
+  }
+  .mail-content {
+    margin: auto;
+    width: 70%;
+  }
+}
+    </style>-->
+    </body>
+</html>

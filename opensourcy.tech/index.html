@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>opensourcy.tech</title>
+  <meta name="description" content="open-source, sorted">
+  <meta name="keywords" content="Tech News, open-source, Linux, software, cryptocurrency">
+  <meta name="author" content="Gabriele Salvo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" >
+  <link rel="icon" href="./favicon.svg" />
+</head>
+<body>
+ <!--Navigation-->
+ <nav class="navigation">
+  <li><p style="font-size: 15px; cursor: pointer;" onclick="location.href='index.html';">Home</p></li>
+  <li><p style="font-size: 15px; cursor: pointer;" onclick="location.href='./pages/about.html';">About</p></li>
+  <li><p style="font-size: 15px; cursor: pointer;" onclick="location.href='./pages/sponsor.html';">Sponsor</p></li>
+  <li><p style="font-size: 15px; cursor: pointer; color: #D96B43; text-decoration: underline;" onclick="location.href='./pages/launchpad.html';">CHRISTMAS LaunchPad</p></li>
+ </nav>
+
+<!-- main cointener -->
+<div class="container clogo">
+<!-- logo text -->  
+  <div class="logo">
+    <div class="sub_logo">
+      <h1 style="font-size: 33px;">open<a href="#blank" class="s">s</a>ourcy.tech</h1>
+      <p class="tsublogo">Double shot of open tech. <a style="pointer-events: none;" href="#blank" class="subgradient">Straight.</a></p>
+    </div>
+  </div>
+  <!-- logo Css -->
+  <div class="coffee-cups">
+    <div id="wrap">
+      <div class="steam" id="steam-one"></div>
+      <div class="steam" id="steam-two"></div>
+      <div class="steam" id="steam-three"></div>
+      <div class="steam" id="steam-four"></div>
+    </div>
+    <div class="cup doppio">
+      <div class="handle"></div>
+    </div>
+  </div>
+  <!-- NewsLetter-->
+  <div class="content">
+    <form class="subscription" action="https://formsubmit.co/47a7431eb370cb917bad8135382209bd"  method="POST">
+      <div class="form-group">
+      <input class="add-email" type="email" placeholder="Email address..." name="email" required="required">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" value="https://opensourcy.tech/pages/thank-you.html">
+      <button class="submit-email" type="submit">
+      <span class="before-submit">Subscribe</span>
+      <span class="after-submit">Thank you for subscribing!</span>
+      </button>
+    </div>
+    </form>
+  </div>
+
+  <!-- Archive, Daily-->
+  <p style="font-size: 12px; font-weight: bold; margin-top: 15px; margin-left:12px; cursor: pointer; z-index: 10; text-decoration: underline dashed; text-underline-offset: 2px;" onclick="location.href='./pages/archive.html';">Archive 📁</p>
+  <!-- Quotes-->
+  <p id="quotes" style="margin-top: 35px; margin-left:7px; font-size:15px">Wise quotes right here!</p>
+   <!-- Why-->
+  <div class="why">
+    <h1 style="color:#D96B43;">Time To Get Techy</h1>
+    <p><a href="#blank" style="color:#D96B43;" >opensourcy </a>is a weekly newsletter that uses a much intelligent custom API to get the most interesting stories about opensource software 📖, coding 💻, and tech! 🚀 </p>
+  </div>
+    
+<!-- Stats icon -->
+</div>
+<script>
+  function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }
+</script>
+ 
+<!--Footer---->
+<footer>
+  <div class="links">
+    <a style="padding: 7px; float: left; font-size: 0.9em;"  href="mailto:gabsalvo@opensourcy.tech" target="_blank"> Contact</a>
+    <a style="padding: 7px; float: left; font-size: 0.9em;"  href="./pages/disclaimer.html" target="_blank"> Disclaimer</a>
+    <a style="padding: 7px; float: left; font-size: 0.9em;"  href="./pages/privacy.html" target="_blank"> Privacy</a>
+    <a style="padding: 7px; float: left; font-size: 0.9em;"  href="./pages/terms.html" target="_blank"> Terms</a>
+  </div>
+  <p>WRITTEN BY <a href="./pages/lottery.html"> GABRIELE</a></p>
+</footer>
+
+<!--Script NewsLetter Submit-->
+<script type="module" src="js/newsletter.js"></script>
+<!--Script Quotes-->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="js/quotes.js"></script>
+</body>
+</html>

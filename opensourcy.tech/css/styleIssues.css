@@ -1,0 +1,83 @@
+/*Main*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+html {
+  display: grid;
+  min-height: 100%;
+}
+@font-face {
+  font-family: 'Red Hat Mono', monospace;
+  src: url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+}
+:root{
+    --background: #262624;
+    --color-p: #F2BDBD;
+    --color-h: #D96B43;
+    --color-fav: #A65233;
+    --color-other: #8C512E;
+    --orchid: #F92672;
+    --br-blue: #66D9EF;
+    --henn1nk: #539b00;
+    --spice: #FD971F;
+    --classColour: #FFE792;
+    --parColour: #F8F8F2;
+}
+body {
+  background: #0f1011;
+  display: grid;
+  grid-template-rows: auto;
+  font-family: 'Red Hat Mono', monospace;
+}
+a {
+  color: var(--color-h);
+}
+h2 {
+  color: var(--color-h);
+}
+h3{
+  color: var(--color-fav) ;
+}
+
+p {
+  color: #F4E8DA;
+  text-align: left;
+}
+
+pre {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+/*TOP BAR*/
+.actions {
+  position:relative;
+  margin:0 auto;
+  clear:left;
+  height:auto;
+  z-index: 0;
+  text-align:center;
+}
+
+/*BODY EMAILS*/
+.mail-content {
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+.summary {
+  text-align: center;
+}
+
+/*Media Queries 480 on width*/
+@media only screen and (max-width: 479px) {
+  body {
+    width: 100%;
+    height: 100%;
+    transform-origin: top left;
+    transform: scale(68%);
+  }
+  .mail-content {
+    margin: auto;
+    width: 70%;
+  }
+}
